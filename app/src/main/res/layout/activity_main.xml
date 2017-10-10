@@ -25,7 +25,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAllCaps="false"
+        android:onClick="onClick_SharedPreferences"
         android:text="@string/button_shared_preferences"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:onClick="onClick_Intent"
+        android:text="@string/button_intent"/>
 
     <Button
         android:layout_width="match_parent"

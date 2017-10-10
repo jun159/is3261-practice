@@ -20,7 +20,11 @@
         <activity
             android:name=".sqlite.SQLite"
             android:windowSoftInputMode="adjustPan" />
-        <activity android:name=".SharedPreferencesActivity"></activity>
+        <activity android:name=".SharedPreferencesActivity" />
+        <activity android:name=".intent.IntentActivity" />
+        <activity android:name=".intent.Activity1" />
+        <activity android:name=".intent.Activity2" />
+        <activity android:name=".StaticFragmentsActivity"></activity>
     </application>
 
 </manifest>

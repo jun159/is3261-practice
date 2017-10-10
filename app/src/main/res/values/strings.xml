@@ -3,6 +3,7 @@
     <string name="button_calculator">Calculator</string>
     <string name="button_sqlite">SQLite</string>
     <string name="button_shared_preferences">Shared Preferences</string>
+    <string name="button_intent">Intent</string>
     <string name="button_static_fragment">Static Fragments</string>
     <string name="button_dynamic_fragment">Dynamic Fragments</string>
     <string name="button_orientation">Orientation</string>
@@ -34,4 +35,13 @@
     <string name="button_update_record">Update Record</string>
     <string name="button_delete_record">Delete Record</string>
     <string name="button_delete_all_records">Delete All Records</string>
+
+    <string name="button_save_value">Save Key-Value Pair</string>
+    <string name="button_retrieve_value">Retrieve Key-Value Pair</string>
+    <string name="button_delete_value">Delete Key-Value Pair</string>
+    <string name="button_delete_all_value">Delete All Key-Value Pair</string>
+
+    <string name="button_pass_from_main_to_new_intent">Main Pass to New Intent</string>
+    <string name="button_pass_from_main_to_new_bundle">Main Pass to New Bundle</string>
+    <string name="button_pass_from_new_to_main">Main Request From New, New Pass Back to Main</string>
 </resources>

@@ -5,30 +5,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="sg.edu.nus.baojun.is3261_practice.SharedPreferencesActivity">
+    tools:context="sg.edu.nus.baojun.is3261_practice.intent.IntentActivity">
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/button_save_value"
-        android:onClick="onClick_SaveKeyValue"/>
+        android:onClick="onClick_PassFromMainToNewWithIntent"
+        android:text="@string/button_pass_from_main_to_new_intent"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/button_retrieve_value"
-        android:onClick="onClick_RetrieveKeyValue"/>
+        android:onClick="onClick_PassFromMainToNewWithBundle"
+        android:text="@string/button_pass_from_main_to_new_bundle"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/button_delete_value"
-        android:onClick="onClick_DeleteKeyValue"/>
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/button_delete_all_value"
-        android:onClick="onClick_DeleteAllKeyValue"/>
+        android:onClick="onClick_MainRequestFromNewAndNewPassBackToMain"
+        android:text="@string/button_pass_from_new_to_main"/>
 
 </LinearLayout>
