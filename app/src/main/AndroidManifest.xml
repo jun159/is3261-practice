@@ -26,7 +26,15 @@
         <activity android:name=".intent.Activity2" />
         <activity android:name=".staticfragment.StaticFragmentsActivity" />
         <activity android:name=".dynamicfragment.DynamicFragmentsActivity" />
-        <activity android:name=".orientation.OrientationActivity"/>
+        <activity android:name=".orientation.OrientationActivity" />
+        <activity android:name=".broadcastreceiver.PersistentBroadcastActivity" />
+        <activity android:name=".broadcastreceiver.BroadcastActivity" />
+
+        <receiver android:name=".broadcastreceiver.MyPersistentBroadcastReceiver">
+            <intent-filter>
+                <action android:name="SOC_Students"/>
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>

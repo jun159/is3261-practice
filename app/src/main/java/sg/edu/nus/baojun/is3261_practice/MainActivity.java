@@ -5,6 +5,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import sg.edu.nus.baojun.is3261_practice.broadcastreceiver.BroadcastActivity;
+import sg.edu.nus.baojun.is3261_practice.broadcastreceiver.PersistentBroadcastActivity;
 import sg.edu.nus.baojun.is3261_practice.dynamicfragment.DynamicFragmentsActivity;
 import sg.edu.nus.baojun.is3261_practice.intent.IntentActivity;
 import sg.edu.nus.baojun.is3261_practice.orientation.OrientationActivity;
@@ -55,6 +57,12 @@ public class MainActivity extends Activity {
     }
 
     public void onClick_BroadcastReceiver(View view) {
+        Intent intent = new Intent(MainActivity.this, BroadcastActivity.class);
+        startActivity(intent);
+    }
 
+    public void onClick_PersistentBroadcastReceiver(View view) {
+        Intent intent = new Intent(MainActivity.this, PersistentBroadcastActivity.class);
+        startActivity(intent);
     }
 }

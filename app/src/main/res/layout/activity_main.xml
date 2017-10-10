@@ -63,4 +63,11 @@
         android:onClick="onClick_BroadcastReceiver"
         android:text="@string/button_broadcast_receiver"/>
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:onClick="onClick_PersistentBroadcastReceiver"
+        android:text="@string/button_persistent_broadcast_receiver"/>
+
 </LinearLayout>
