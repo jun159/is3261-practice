@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import sg.edu.nus.baojun.is3261_practice.dynamicfragment.DynamicFragmentsActivity;
 import sg.edu.nus.baojun.is3261_practice.intent.IntentActivity;
 import sg.edu.nus.baojun.is3261_practice.sqlite.SQLite;
 import sg.edu.nus.baojun.is3261_practice.staticfragment.StaticFragmentsActivity;
@@ -43,7 +44,8 @@ public class MainActivity extends Activity {
     }
 
     public void onClick_DynamicFragments(View view) {
-
+        Intent intent = new Intent(MainActivity.this, DynamicFragmentsActivity.class);
+        startActivity(intent);
     }
 
     public void onClick_Orientation(View view) {
