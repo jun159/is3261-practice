@@ -39,24 +39,28 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAllCaps="false"
+        android:onClick="onClick_StaticFragments"
         android:text="@string/button_static_fragment"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAllCaps="false"
+        android:onClick="onClick_DynamicFragments"
         android:text="@string/button_dynamic_fragment"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAllCaps="false"
+        android:onClick="onClick_Orientation"
         android:text="@string/button_orientation"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAllCaps="false"
+        android:onClick="onClick_BroadcastReceiver"
         android:text="@string/button_broadcast_receiver"/>
 
 </LinearLayout>

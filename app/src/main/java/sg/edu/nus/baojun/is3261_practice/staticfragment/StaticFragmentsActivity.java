@@ -1,7 +1,9 @@
-package sg.edu.nus.baojun.is3261_practice;
+package sg.edu.nus.baojun.is3261_practice.staticfragment;
 
 import android.app.Activity;
 import android.os.Bundle;
+
+import sg.edu.nus.baojun.is3261_practice.R;
 
 public class StaticFragmentsActivity extends Activity {
 
