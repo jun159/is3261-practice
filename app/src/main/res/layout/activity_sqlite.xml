@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="sg.edu.nus.baojun.is3261_practice.sqlite.SQLite">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edit_id"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:hint="@string/hint_id" />
+
+        <EditText
+            android:id="@+id/edit_furniture"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:hint="@string/hint_furniture" />
+
+        <EditText
+            android:id="@+id/edit_class"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:hint="@string/hint_class" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="10dp"
+        android:onClick="onClick_AddRecord"
+        android:text="@string/button_add_record"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="10dp"
+        android:onClick="onClick_UpdateRecord"
+        android:text="@string/button_update_record"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="10dp"
+        android:onClick="onClick_DeleteRecord"
+        android:text="@string/button_delete_record"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="10dp"
+        android:onClick="onClick_DeleteAllRecords"
+        android:text="@string/button_delete_all_records"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4">
+
+        <TextView
+            android:id="@+id/text_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">is3261-practice</string>
+    <string name="button_calculator">Calculator</string>
+    <string name="button_sqlite">SQLite</string>
+    <string name="button_shared_preferences">Shared Preferences</string>
+    <string name="button_static_fragment">Static Fragments</string>
+    <string name="button_dynamic_fragment">Dynamic Fragments</string>
+    <string name="button_orientation">Orientation</string>
+    <string name="button_broadcast_receiver">Broadcast Receiver</string>
+    <string name="button_seek_bar">Seek Bar</string>
+
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="zero">0</string>
+    <string name="add">+</string>
+    <string name="subtract">-</string>
+    <string name="multiply">x</string>
+    <string name="divide">/</string>
+    <string name="equal">=</string>
+    <string name="all_clear">AC</string>
+    <string name="clear">C</string>
+
+    <string name="hint_id">Id</string>
+    <string name="hint_furniture">Furniture</string>
+    <string name="hint_class">Class</string>
+    <string name="button_add_record">Add Record</string>
+    <string name="button_update_record">Update Record</string>
+    <string name="button_delete_record">Delete Record</string>
+    <string name="button_delete_all_records">Delete All Records</string>
+</resources>
