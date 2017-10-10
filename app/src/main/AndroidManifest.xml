@@ -32,9 +32,11 @@
 
         <receiver android:name=".broadcastreceiver.MyPersistentBroadcastReceiver">
             <intent-filter>
-                <action android:name="SOC_Students"/>
+                <action android:name="SOC_Students" />
             </intent-filter>
         </receiver>
+
+        <activity android:name=".SeekBarActivity"></activity>
     </application>
 
 </manifest>

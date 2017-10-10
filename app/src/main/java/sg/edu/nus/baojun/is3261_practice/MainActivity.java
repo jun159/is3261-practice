@@ -65,4 +65,9 @@ public class MainActivity extends Activity {
         Intent intent = new Intent(MainActivity.this, PersistentBroadcastActivity.class);
         startActivity(intent);
     }
+
+    public void onClick_SeekBar(View view) {
+        Intent intent = new Intent(MainActivity.this, SeekBarActivity.class);
+        startActivity(intent);
+    }
 }
