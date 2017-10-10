@@ -1,14 +1,14 @@
 package sg.edu.nus.baojun.is3261_practice.intent;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Toast;
 
 import sg.edu.nus.baojun.is3261_practice.R;
 
-public class IntentActivity extends Activity {
+public class IntentActivity extends AppCompatActivity {
 
     public static final String KEY_NPLAYERS = "NPlayers";
     public static final String KEY_SPORTS = "Sports";

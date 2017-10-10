@@ -1,14 +1,14 @@
 package sg.edu.nus.baojun.is3261_practice.dynamicfragment;
 
-import android.app.Activity;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.Toast;
 
 import sg.edu.nus.baojun.is3261_practice.R;
 
-public class DynamicFragmentsActivity extends Activity
+public class DynamicFragmentsActivity extends AppCompatActivity
             implements Fragment1.OnFragmentInteractionListener {
 
     @Override

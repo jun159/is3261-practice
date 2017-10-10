@@ -1,12 +1,12 @@
 package sg.edu.nus.baojun.is3261_practice;
 
-import android.app.Activity;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Toast;
 
-public class SharedPreferencesActivity extends Activity {
+public class SharedPreferencesActivity extends AppCompatActivity {
 
     public static final String SHAREDPREF_NAME = "sg.edu.nus.baojun";
 

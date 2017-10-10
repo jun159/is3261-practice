@@ -36,7 +36,7 @@
             </intent-filter>
         </receiver>
 
-        <activity android:name=".SeekBarActivity"></activity>
+        <activity android:name=".SeekBarActivity" />
     </application>
 
 </manifest>

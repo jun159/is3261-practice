@@ -1,13 +1,13 @@
 package sg.edu.nus.baojun.is3261_practice;
 
-import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class Calculator extends Activity {
+public class Calculator extends AppCompatActivity {
 
     private TextView textResult;
     private String currentResult;

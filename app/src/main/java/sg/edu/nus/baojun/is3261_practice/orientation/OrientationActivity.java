@@ -1,14 +1,14 @@
 package sg.edu.nus.baojun.is3261_practice.orientation;
 
-import android.app.Activity;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.content.res.Configuration;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 import sg.edu.nus.baojun.is3261_practice.R;
 
-public class OrientationActivity extends Activity {
+public class OrientationActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

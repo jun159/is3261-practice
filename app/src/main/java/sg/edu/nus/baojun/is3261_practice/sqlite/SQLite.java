@@ -1,8 +1,8 @@
 package sg.edu.nus.baojun.is3261_practice.sqlite;
 
-import android.app.Activity;
 import android.database.Cursor;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -12,7 +12,7 @@ import java.util.ArrayList;
 
 import sg.edu.nus.baojun.is3261_practice.R;
 
-public class SQLite extends Activity {
+public class SQLite extends AppCompatActivity {
 
     private EditText editId;
     private EditText editFurniture;

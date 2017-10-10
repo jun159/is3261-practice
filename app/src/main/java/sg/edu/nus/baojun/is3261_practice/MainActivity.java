@@ -1,6 +1,6 @@
 package sg.edu.nus.baojun.is3261_practice;
 
-import android.app.Activity;
+import android.support.v7.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -13,7 +13,7 @@ import sg.edu.nus.baojun.is3261_practice.orientation.OrientationActivity;
 import sg.edu.nus.baojun.is3261_practice.sqlite.SQLite;
 import sg.edu.nus.baojun.is3261_practice.staticfragment.StaticFragmentsActivity;
 
-public class MainActivity extends Activity {
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
