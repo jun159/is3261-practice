@@ -2,9 +2,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="sg.edu.nus.baojun.is3261_practice.staticfragment.Fragment2">
+    tools:context="sg.edu.nus.baojun.is3261_practice.fragmentstatic.Fragment2">
 
     <TextView
+        android:id="@+id/text"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:textSize="40sp"

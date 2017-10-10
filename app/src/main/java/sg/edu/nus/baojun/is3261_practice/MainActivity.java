@@ -7,11 +7,12 @@ import android.view.View;
 
 import sg.edu.nus.baojun.is3261_practice.broadcastreceiver.BroadcastActivity;
 import sg.edu.nus.baojun.is3261_practice.broadcastreceiver.PersistentBroadcastActivity;
-import sg.edu.nus.baojun.is3261_practice.dynamicfragment.DynamicFragmentsActivity;
+import sg.edu.nus.baojun.is3261_practice.fragmentcommunication.FragmentCommunicationActivity;
+import sg.edu.nus.baojun.is3261_practice.fragmentdynamic.DynamicFragmentsActivity;
 import sg.edu.nus.baojun.is3261_practice.intent.IntentActivity;
 import sg.edu.nus.baojun.is3261_practice.orientation.OrientationActivity;
 import sg.edu.nus.baojun.is3261_practice.sqlite.SQLite;
-import sg.edu.nus.baojun.is3261_practice.staticfragment.StaticFragmentsActivity;
+import sg.edu.nus.baojun.is3261_practice.fragmentstatic.StaticFragmentsActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -48,6 +49,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void onClick_DynamicFragments(View view) {
         Intent intent = new Intent(MainActivity.this, DynamicFragmentsActivity.class);
+        startActivity(intent);
+    }
+
+    public void onClick_FragmentCommunication(View view) {
+        Intent intent = new Intent(MainActivity.this, FragmentCommunicationActivity.class);
         startActivity(intent);
     }
 

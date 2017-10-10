@@ -2,12 +2,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="sg.edu.nus.baojun.is3261_practice.staticfragment.Fragment1">
+    tools:context="sg.edu.nus.baojun.is3261_practice.fragmentstatic.Fragment1">
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:textSize="40sp"
-        android:text="@string/fragment_1" />
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="40sp"
+            android:text="@string/fragment_1" />
+
+        <Button
+            android:id="@+id/button_fragment_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_fragment_1"/>
+
+    </LinearLayout>
 
 </FrameLayout>

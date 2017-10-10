@@ -5,14 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal"
-    tools:context="sg.edu.nus.baojun.is3261_practice.staticfragment.StaticFragmentsActivity">
+    tools:context="sg.edu.nus.baojun.is3261_practice.fragmentstatic.StaticFragmentsActivity">
 
     <fragment
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:id="@+id/fragment1"
-        android:name="sg.edu.nus.baojun.is3261_practice.staticfragment.Fragment1"
+        android:name="sg.edu.nus.baojun.is3261_practice.fragmentstatic.Fragment1"
         android:layout="@layout/fragment_fragment1" />
 
     <fragment
@@ -20,7 +20,7 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:id="@+id/fragment2"
-        android:name="sg.edu.nus.baojun.is3261_practice.staticfragment.Fragment2"
+        android:name="sg.edu.nus.baojun.is3261_practice.fragmentstatic.Fragment2"
         android:layout="@layout/fragment_fragment2" />
 
 </LinearLayout>

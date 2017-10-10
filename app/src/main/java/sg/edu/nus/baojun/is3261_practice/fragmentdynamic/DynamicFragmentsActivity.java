@@ -1,4 +1,4 @@
-package sg.edu.nus.baojun.is3261_practice.dynamicfragment;
+package sg.edu.nus.baojun.is3261_practice.fragmentdynamic;
 
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;

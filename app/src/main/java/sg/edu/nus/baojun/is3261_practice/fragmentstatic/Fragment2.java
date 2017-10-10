@@ -1,8 +1,8 @@
-package sg.edu.nus.baojun.is3261_practice.dynamicfragment;
+package sg.edu.nus.baojun.is3261_practice.fragmentstatic;
 
 
-import android.app.Fragment;
 import android.os.Bundle;
+import android.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;

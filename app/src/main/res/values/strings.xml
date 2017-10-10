@@ -6,6 +6,7 @@
     <string name="button_intent">Intent</string>
     <string name="button_static_fragment">Static Fragments</string>
     <string name="button_dynamic_fragment">Dynamic Fragments</string>
+    <string name="button_fragment_communication">Fragments Communication</string>
     <string name="button_orientation">Orientation</string>
     <string name="button_broadcast_receiver">Broadcast Receiver</string>
     <string name="button_persistent_broadcast_receiver">Persistent Broadcast Receiver</string>
@@ -48,6 +49,7 @@
 
     <string name="fragment_1">Fragment 1</string>
     <string name="fragment_2">Fragment 2</string>
+    <string name="button_fragment_1">Button</string>
 
     <string name="button_send_broadcast">Send a Broadcast Message</string>
     <string name="button_send_persistent_broadcast">Send a Persistent Broadcast Message</string>

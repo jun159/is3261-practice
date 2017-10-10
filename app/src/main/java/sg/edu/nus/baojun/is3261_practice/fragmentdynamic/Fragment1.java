@@ -1,11 +1,12 @@
-package sg.edu.nus.baojun.is3261_practice.dynamicfragment;
+package sg.edu.nus.baojun.is3261_practice.fragmentdynamic;
 
+import android.app.Fragment;
 import android.content.Context;
 import android.os.Bundle;
-import android.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 import sg.edu.nus.baojun.is3261_practice.R;
 
@@ -29,10 +30,17 @@ public class Fragment1 extends Fragment {
 
         // Interface to be used within activity
         // Method declared in activity, activity tells fragment what to do
-        mListener.onFragmentInteraction("HELLO");
+        View view = inflater.inflate(R.layout.fragment_fragment1, container, false);
 
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_fragment1, container, false);
+        Button button1 = (Button)view.findViewById(R.id.button_fragment_1);
+        button1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mListener.onFragmentInteraction("HELLO");
+            }
+        });
+
+        return view;
     }
 
     @Override

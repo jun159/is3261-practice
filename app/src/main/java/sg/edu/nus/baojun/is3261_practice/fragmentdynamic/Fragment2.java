@@ -1,8 +1,8 @@
-package sg.edu.nus.baojun.is3261_practice.staticfragment;
+package sg.edu.nus.baojun.is3261_practice.fragmentdynamic;
 
 
-import android.os.Bundle;
 import android.app.Fragment;
+import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,10 +12,10 @@ import sg.edu.nus.baojun.is3261_practice.R;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class Fragment1 extends Fragment {
+public class Fragment2 extends Fragment {
 
 
-    public Fragment1() {
+    public Fragment2() {
         // Required empty public constructor
     }
 
@@ -24,7 +24,7 @@ public class Fragment1 extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_fragment1, container, false);
+        return inflater.inflate(R.layout.fragment_fragment2, container, false);
     }
 
 }

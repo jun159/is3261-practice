@@ -1,4 +1,4 @@
-package sg.edu.nus.baojun.is3261_practice.staticfragment;
+package sg.edu.nus.baojun.is3261_practice.fragmentstatic;
 
 import android.app.Activity;
 import android.os.Bundle;
