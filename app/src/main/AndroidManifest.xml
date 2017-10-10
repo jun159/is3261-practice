@@ -24,8 +24,9 @@
         <activity android:name=".intent.IntentActivity" />
         <activity android:name=".intent.Activity1" />
         <activity android:name=".intent.Activity2" />
-        <activity android:name=".staticfragment.StaticFragmentsActivity"/>
-        <activity android:name=".dynamicfragment.DynamicFragmentsActivity"/>
+        <activity android:name=".staticfragment.StaticFragmentsActivity" />
+        <activity android:name=".dynamicfragment.DynamicFragmentsActivity" />
+        <activity android:name=".orientation.OrientationActivity"/>
     </application>
 
 </manifest>

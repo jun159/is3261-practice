@@ -7,6 +7,7 @@ import android.view.View;
 
 import sg.edu.nus.baojun.is3261_practice.dynamicfragment.DynamicFragmentsActivity;
 import sg.edu.nus.baojun.is3261_practice.intent.IntentActivity;
+import sg.edu.nus.baojun.is3261_practice.orientation.OrientationActivity;
 import sg.edu.nus.baojun.is3261_practice.sqlite.SQLite;
 import sg.edu.nus.baojun.is3261_practice.staticfragment.StaticFragmentsActivity;
 
@@ -49,7 +50,8 @@ public class MainActivity extends Activity {
     }
 
     public void onClick_Orientation(View view) {
-
+        Intent intent = new Intent(MainActivity.this, OrientationActivity.class);
+        startActivity(intent);
     }
 
     public void onClick_BroadcastReceiver(View view) {
